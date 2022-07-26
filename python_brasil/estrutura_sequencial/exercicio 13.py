@@ -4,6 +4,8 @@ utilizando as seguintes fórmulas:
 Para homens: (72.7*h) - 58
 Para mulheres: (62.1*h) - 44.7
 """
+
+
 def mostrar_peso_ideal_por_genero(altura, sexo):
     if sexo == 'feminino':
         return round((62.1 * altura) - 44.7)
